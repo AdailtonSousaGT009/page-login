@@ -1,0 +1,27 @@
+/* Reset básico e estilo global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #203d4e86;
+  text-shadow: 1px 1px #15293483;
+}
+
+/* Estilo principal do container App */
+.App {
+  display: flex;
+  justify-content: flex-end; /* Alinha o conteúdo à direita */
+  align-items: center;
+  min-height: 100vh;
+
+  /* Imagem menor e no lado esquerdo */
+  background-image: url("./assets/logo.png");
+  background-position: left center; /* Imagem à esquerda, verticalmente centralizada */
+  background-repeat: no-repeat;
+  background-size: 30%; /* Imagem ocupa 30% da largura */
+
+  background-color: #f0f4f8;
+  padding-right: 40px; /* Espaço do conteúdo para a borda direita */
+  padding-left: 20px;  /* Espaço para não grudar na imagem */
+}
